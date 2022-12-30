@@ -1,0 +1,40 @@
+
+ActiveLocation                          : Primary
+AllowedOperations                       : {UnplannedFailover, DisableProtection, TestFailover}
+CurrentScenario                         : Microsoft.Azure.Management.RecoveryServices.SiteRecovery.Models.CurrentScenarioDetails
+FailoverRecoveryPointId                 : /Subscriptions/6de6133f-ee8f-48ac-abfe-06b9b0f9e138/resourceGroups/DAN-NL-R-RSG500-ASR/providers/Microsoft.RecoveryServices/vaults/DAN-NL-R-RSV001-DRP/replicationFabrics/asr-a2a-default-francecentral/replicationProtectionContainers/5cdebfef-2685-5df3-9ef5-cf547a32d703/replicationProtectedItems/1c076710-09dc-40fc-b5e3-d4500d0211a3/recoveryPoints/bd7bb236-9e1a-424a-b86b-e139e15377a6
+FriendlyName                            : WFRPARNLB062
+ID                                      : /Subscriptions/6de6133f-ee8f-48ac-abfe-06b9b0f9e138/resourceGroups/DAN-NL-R-RSG500-ASR/providers/Microsoft.RecoveryServices/vaults/DAN-NL-R-RSV001-DRP/replicationFabrics/asr-a2a-default-francecentral/replicationProtectionContainers/asr-a2a-default-francecentral-container/replicationProtectedItems/1c076710-09dc-40fc-b5e3-d4500d0211a3
+LastSuccessfulFailoverTime              : 
+LastSuccessfulTestFailoverTime          : 10/19/2022 8:21:43 AM
+Name                                    : 1c076710-09dc-40fc-b5e3-d4500d0211a3
+NicDetailsList                          : {}
+PolicyFriendlyName                      : DAN-NL-R-RPL001-Tier1
+PolicyID                                : /Subscriptions/6de6133f-ee8f-48ac-abfe-06b9b0f9e138/resourceGroups/DAN-NL-R-RSG500-ASR/providers/Microsoft.RecoveryServices/vaults/DAN-NL-R-RSV001-DRP/replicationPolicies/DAN-NL-R-RPL001-Tier1
+PrimaryFabricFriendlyName               : France Central
+PrimaryProtectionContainerFriendlyName  : asr-a2a-default-francecentral-container
+ProtectableItemId                       : 
+ProtectedItemType                       : 
+ProtectionState                         : Protected
+ProtectionStateDescription              : Protected
+ProviderSpecificDetails                 : Microsoft.Azure.Commands.RecoveryServices.SiteRecovery.ASRAzureToAzureSpecificRPIDetails
+RecoveryAzureStorageAccount             : 
+RecoveryAzureVMName                     : WFRPARNLB062
+RecoveryAzureVMSize                     : Standard_E8-4ds_v4
+RecoveryFabricFriendlyName              : West Europe
+RecoveryFabricId                        : /Subscriptions/6de6133f-ee8f-48ac-abfe-06b9b0f9e138/resourceGroups/DAN-NL-R-RSG500-ASR/providers/Microsoft.RecoveryServices/vaults/DAN-NL-R-RSV001-DRP/replicationFabrics/asr-a2a-default-westeurope
+RecoveryProtectionContainerFriendlyName : asr-a2a-default-westeurope-container
+RecoveryResourceGroupId                 : 
+SelectedSourceNicNetworkId              : 
+RecoveryServicesProviderId              : /Subscriptions/6de6133f-ee8f-48ac-abfe-06b9b0f9e138/resourceGroups/DAN-NL-R-RSG500-ASR/providers/Microsoft.RecoveryServices/vaults/DAN-NL-R-RSV001-DRP/replicationFabrics/asr-a2a-default-francecentral/replicationRecoveryServicesProviders/36279c5e-621c-546f-8e25-357ccf65bee8
+ReplicationHealth                       : Normal
+ReplicationHealthErrors                 : {746f525c-4235-53f4-baa8-229adacbc4ff}
+ReplicationProvider                     : A2A
+SelectedRecoveryAzureNetworkId          : /subscriptions/6de6133f-ee8f-48ac-abfe-06b9b0f9e138/resourcegroups/dan-nl-r-rsg500-asr/providers/microsoft.network/virtualnetworks/dan-nl-r-vnt500-asr-isolated
+TestFailoverState                       : MarkedForDeletion
+TestFailoverStateDescription            : Cleaning up test environment
+Type                                    : Microsoft.RecoveryServices/vaults/replicationFabrics/replicationProtectionContainers/replicationProtectedItems
+TfoAzureVMName                          : WFRPARNLB062-test
+SelectedTfoAzureNetworkId               : /subscriptions/6de6133f-ee8f-48ac-abfe-06b9b0f9e138/resourceGroups/DAN-NL-R-RSG001-NetworkSecurity/providers/Microsoft.Network/virtualNetworks/DAN-NL-R-VNT001
+
+
